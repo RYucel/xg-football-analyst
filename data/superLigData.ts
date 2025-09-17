@@ -1,0 +1,24 @@
+import { TeamStat } from '../types';
+
+// Data updated based on early season stats and new features.
+// Note: Some xG/xGA values from the source were negative and have been corrected to their absolute values for model compatibility.
+export const superLigTeamData: TeamStat[] = [
+  { rank: 1, name: "Galatasaray", mp: 5, xG: 2.19, xGA: 0.80, xGD: 1.39, elo: 1714, matchHistory: [{result: 'W', fairOdds: 1.3}, {result: 'W', fairOdds: 1.2}, {result: 'W', fairOdds: 1.4}, {result: 'W', fairOdds: 1.5}, {result: 'D', fairOdds: 4.0}] },
+  { rank: 2, name: "Fenerbahçe", mp: 4, xG: 1.97, xGA: 0.77, xGD: 1.20, elo: 1685, matchHistory: [{result: 'D', fairOdds: 3.8}, {result: 'W', fairOdds: 1.4}, {result: 'W', fairOdds: 1.3}, {result: 'L', fairOdds: 2.5}, {result: 'W', fairOdds: 1.6}] },
+  { rank: 3, name: "Beşiktaş", mp: 3, xG: 1.96, xGA: 1.16, xGD: 0.80, elo: 1475, matchHistory: [{result: 'L', fairOdds: 2.2}, {result: 'L', fairOdds: 2.3}, {result: 'L', fairOdds: 2.0}, {result: 'D', fairOdds: 3.2}, {result: 'W', fairOdds: 1.9}] },
+  { rank: 4, name: "Göztepe", mp: 5, xG: 1.70, xGA: 1.11, xGD: 0.59, elo: 1415, matchHistory: [{result: 'W', fairOdds: 1.8}, {result: 'D', fairOdds: 3.5}, {result: 'W', fairOdds: 1.9}, {result: 'L', fairOdds: 4.0}, {result: 'W', fairOdds: 1.5}] },
+  { rank: 5, name: "Konyaspor", mp: 4, xG: 1.51, xGA: 1.49, xGD: 0.02, elo: 1403, matchHistory: [{result: 'W', fairOdds: 2.0}, {result: 'W', fairOdds: 1.9}, {result: 'W', fairOdds: 2.1}, {result: 'W', fairOdds: 1.8}, {result: 'W', fairOdds: 1.7}] },
+  { rank: 6, name: "Samsunspor", mp: 4, xG: 1.40, xGA: 1.00, xGD: 0.40, elo: 1428, matchHistory: [{result: 'W', fairOdds: 2.3}, {result: 'D', fairOdds: 3.0}, {result: 'W', fairOdds: 2.2}, {result: 'L', fairOdds: 2.8}, {result: 'W', fairOdds: 2.0}] },
+  { rank: 7, name: "Gaziantep FK", mp: 5, xG: 1.39, xGA: 1.40, xGD: -0.01, elo: 1375, matchHistory: [{result: 'L', fairOdds: 2.4}, {result: 'W', fairOdds: 2.3}, {result: 'W', fairOdds: 2.5}, {result: 'D', fairOdds: 3.0}, {result: 'L', fairOdds: 2.6}] },
+  { rank: 8, name: "İstanbul Başakşehir FK", mp: 3, xG: 1.28, xGA: 1.45, xGD: -0.17, elo: 1444, matchHistory: [{result: 'W', fairOdds: 1.8}, {result: 'W', fairOdds: 1.9}, {result: 'D', fairOdds: 3.4}, {result: 'L', fairOdds: 2.2}, {result: 'W', fairOdds: 1.7}] },
+  { rank: 9, name: "Kasımpaşa", mp: 4, xG: 1.23, xGA: 1.32, xGD: -0.09, elo: 1401, matchHistory: [{result: 'L', fairOdds: 3.0}, {result: 'W', fairOdds: 2.1}, {result: 'L', fairOdds: 2.8}, {result: 'L', fairOdds: 2.9}, {result: 'W', fairOdds: 2.3}] },
+  { rank: 10, name: "Fatih Karagümrük Spor Kulübü", mp: 4, xG: 1.22, xGA: 1.68, xGD: -0.46, elo: 1315, matchHistory: [{result: 'L', fairOdds: 3.5}, {result: 'D', fairOdds: 3.8}, {result: 'L', fairOdds: 3.2}, {result: 'L', fairOdds: 4.0}, {result: 'D', fairOdds: 3.5}] },
+  { rank: 11, name: "Çaykur Rizespor", mp: 4, xG: 1.17, xGA: 1.54, xGD: -0.37, elo: 1375, matchHistory: [{result: 'D', fairOdds: 3.2}, {result: 'L', fairOdds: 2.6}, {result: 'W', fairOdds: 2.4}, {result: 'D', fairOdds: 3.1}, {result: 'L', fairOdds: 2.7}] },
+  { rank: 12, name: "Antalyaspor", mp: 5, xG: 1.11, xGA: 1.52, xGD: -0.41, elo: 1366, matchHistory: [{result: 'D', fairOdds: 3.0}, {result: 'D', fairOdds: 3.1}, {result: 'L', fairOdds: 2.5}, {result: 'W', fairOdds: 2.2}, {result: 'D', fairOdds: 3.3}] },
+  { rank: 13, name: "Kayserispor", mp: 4, xG: 1.10, xGA: 1.58, xGD: -0.48, elo: 1384, matchHistory: [{result: 'L', fairOdds: 2.5}, {result: 'D', fairOdds: 3.2}, {result: 'L', fairOdds: 2.7}, {result: 'W', fairOdds: 2.4}, {result: 'L', fairOdds: 2.9}] },
+  { rank: 14, name: "Eyüp Spor Kulübü", mp: 5, xG: 1.09, xGA: 1.75, xGD: -0.66, elo: 1357, matchHistory: [{result: 'L', fairOdds: 2.2}, {result: 'L', fairOdds: 2.5}, {result: 'D', fairOdds: 3.2}, {result: 'L', fairOdds: 3.0}, {result: 'L', fairOdds: 2.8}] },
+  { rank: 15, name: "Gençlerbirliği", mp: 5, xG: 1.08, xGA: 1.47, xGD: -0.39, elo: 1298, matchHistory: [{result: 'D', fairOdds: 3.1}, {result: 'L', fairOdds: 2.9}, {result: 'L', fairOdds: 3.0}, {result: 'W', fairOdds: 2.8}, {result: 'D', fairOdds: 3.3}] },
+  { rank: 16, name: "Trabzonspor", mp: 5, xG: 1.04, xGA: 1.54, xGD: -0.50, elo: 1477, matchHistory: [{result: 'L', fairOdds: 1.9}, {result: 'W', fairOdds: 1.8}, {result: 'D', fairOdds: 3.5}, {result: 'W', fairOdds: 1.7}, {result: 'L', fairOdds: 2.1}] },
+  { rank: 17, name: "Alanyaspor", mp: 4, xG: 1.00, xGA: 1.17, xGD: -0.17, elo: 1416, matchHistory: [{result: 'W', fairOdds: 2.5}, {result: 'L', fairOdds: 2.0}, {result: 'D', fairOdds: 3.1}, {result: 'L', fairOdds: 2.4}, {result: 'W', fairOdds: 2.6}] },
+  { rank: 18, name: "Kocaelispor Kulübü", mp: 5, xG: 0.99, xGA: 1.43, xGD: -0.44, elo: 1305, matchHistory: [{result: 'L', fairOdds: 2.8}, {result: 'D', fairOdds: 3.4}, {result: 'L', fairOdds: 2.9}, {result: 'W', fairOdds: 2.5}, {result: 'L', fairOdds: 3.1}] }
+];
