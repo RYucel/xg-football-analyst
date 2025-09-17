@@ -2,7 +2,7 @@
   "name": "xG & AI Football Analyst",
   "short_name": "xG Analyst",
   "description": "Advanced football analytics with xG data and AI predictions",
-  "start_url": "/xg-football-analyst/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#1a1a1a",
   "theme_color": "#4f46e5",
@@ -11,13 +11,13 @@
   "lang": "tr",
   "icons": [
     {
-      "src": "/xg-football-analyst/icons/icon-192x192.svg",
+      "src": "./icons/icon-192x192.svg",
       "sizes": "192x192",
       "type": "image/svg+xml",
       "purpose": "maskable any"
     },
     {
-      "src": "/xg-football-analyst/icons/icon-512x512.svg",
+      "src": "./icons/icon-512x512.svg",
       "sizes": "512x512",
       "type": "image/svg+xml",
       "purpose": "maskable any"
