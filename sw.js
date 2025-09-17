@@ -1,9 +1,8 @@
 const CACHE_NAME = 'xg-analyst-v1';
 const urlsToCache = [
-  '/xg-football-analyst/',
-  '/xg-football-analyst/index.html',
-  '/xg-football-analyst/assets/index-CCwyFmwE.js',
-  '/xg-football-analyst/manifest.json'
+  './',
+  './index.html',
+  './manifest.json'
 ];
 
 // Install event - cache resources
