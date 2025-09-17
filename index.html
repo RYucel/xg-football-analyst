@@ -47,15 +47,6 @@
         font-family: 'Roboto', sans-serif;
       }
     </style>
-
-<script>
-  // Placeholder for potential future environment variables if needed for other APIs (e.g., Gemini)
-  // For now, this can be minimal or empty if no other client-side env vars are immediately needed.
-  if (typeof process === 'undefined') {
-    window.process = { env: {} };
-  }
-  // Example: window.process.env.API_KEY = "YOUR_GEMINI_API_KEY_HERE"; // For Gemini, if used
-</script>
   <script type="importmap">
 {
   "imports": {
@@ -66,7 +57,14 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/xg-football-analyst/assets/index-CCwyFmwE.js"></script>
+<script>
+  // Placeholder for potential future environment variables if needed for other APIs (e.g., Gemini)
+  // For now, this can be minimal or empty if no other client-side env vars are immediately needed.
+  if (typeof process === 'undefined') {
+    window.process = { env: {} };
+  }
+  // Example: window.process.env.API_KEY = "YOUR_GEMINI_API_KEY_HERE"; // For Gemini, if used
+</script>
 </head>
   <body class="bg-gray-900 text-gray-100">
     <div id="root"></div>
