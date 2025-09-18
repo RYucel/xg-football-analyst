@@ -59,25 +59,13 @@
         color: #4f46e5;
       }
     </style>
+    <script type="module" crossorigin src="./assets/index-BPOQk3_v.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DXT3LTmc.css">
   </head>
   <body>
     <div id="root">
       <div class="loading">Loading xG Football Analyst...</div>
     </div>
     
-    <!-- Service Worker Registration -->
-    <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/xg-football-analyst/sw.js')
-            .then((registration) => {
-              console.log('SW registered: ', registration);
-            })
-            .catch((registrationError) => {
-              console.log('SW registration failed: ', registrationError);
-            });
-        });
-      }
-    </script>
   </body>
 </html>
